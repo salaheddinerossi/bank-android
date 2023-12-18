@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editText_source_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Source Account"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+    />
+
+    <EditText
+        android:id="@+id/editText_target_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Target Account"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+    />
+
+    <EditText
+        android:id="@+id/editText_transfer_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Amount"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+    />
+
+
+    <Button
+        android:id="@+id/button_perform_transfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transfer" />
+
+</LinearLayout>
